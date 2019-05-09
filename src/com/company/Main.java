@@ -93,38 +93,5 @@ public class Main {
         }
         bw.write(outputString.toString());
         bw.close();
-
-//        int array[] = Arrays.stream(br.readLine().split(" ")).mapToInt(c->Integer.parseInt(c)).toArray();
-//        for(int i = 1;i <= 20;i++) {
-//            outputString.append(i + " --> " + count(array,i)).append("\n");
-//        }
-//        outputString.append("***********************************").append("\n");
-//        int pairs = 0;
-//        HashMap<Integer,Integer> map = new HashMap<>();
-//        for(int i = 0;i < array.length;i++) {
-//            for(int j = (i+1);j < array.length;j++) {
-//                int res = gcd(array[i],array[j]);
-//                if(res > 4) {
-//                    if(map.containsKey(res)) {
-//                        map.put(res,map.get(res)+1);
-//                    }
-//                    else {
-//                        map.put(res,1);
-//                    }
-//                    outputString.append(array[i] + " " + array[j]).append("\n");
-//                    pairs++;
-//                }
-//            }
-//        }
-//        outputString.append("***********************************").append("\n");
-//        for(Map.Entry<Integer,Integer> entry:map.entrySet()) {
-//            int key = entry.getKey();
-//            int value = entry.getValue();
-//            outputString.append(key + " --> " + value).append("\n");
-//        }
-//        outputString.append("***********************************").append("\n");
-//        outputString.append("Pairs --> " + pairs);
-//        bw.write(outputString.toString());
-//        bw.close();
-    }
+   }
 }
